@@ -1,4 +1,5 @@
 #!/bin/bash
+mkdir -p ./pages
 pdflatex dotgrid.tex
 pdflatex dotgrid.tex
 convert -density 300 dotgrid.pdf -quality 90 dotgrid.png
@@ -14,6 +15,6 @@ convert pages/dotgrid_paginated-5*.png pages/signet-5.pdf
 gs -dBATCH -dNOPAUSE -q -sDEVICE=pdfwrite -sOutputFile=journal.pdf ./pages/signet*.pdf
 
 # Cleanup
-rm dotgrid.png dotgrid.aux dotgrid.log dotgrid.pdf
+#rm dotgrid.png dotgrid.aux dotgrid.log dotgrid.pdf
 
 echo "FINISHED"

@@ -1,4 +1,5 @@
-* Instructions 
+* Instructions
+** Generation
 Run build.sh, which performs the following
 
 1. pdflatex is used to generate a single dotgrid page.
@@ -8,6 +9,14 @@ Run build.sh, which performs the following
 5. Ghostscript then joins the signets into a single PDF
 
 The resulting PDF should be printed front and back, landscape, flipped on the short side.
+** Assembly
+It's easiest to work with the signet groupings.
+
+1. Separate pages into their signets.
+2. Fold each page and insert into one another in proper order
+3. Punch binding holes with awl
+4. Copic stitch signets starting with the back cover and last signet
+
 
 * Special Pages
 Title, pg number
