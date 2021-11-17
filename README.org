@@ -1,0 +1,26 @@
+* Instructions 
+Run build.sh, which performs the following
+
+1. pdflatex is used to generate a single dotgrid page.
+2. It's the converted into a png to be used by python
+3. paginate.py is used to generate many pages with page numbers properly placed.
+4. Imagemagick then converts all 200 png pages into PDF signets
+5. Ghostscript then joins the signets into a single PDF
+
+The resulting PDF should be printed front and back, landscape, flipped on the short side.
+
+* Special Pages
+Title, pg number
+
+Title Page, 1
+Index, 2
+Index, 3
+Future Log, 4
+Future Log, 5
+Good Ideas, 6
+Good Ideas, 7
+Shopping List, 8
+Shopping List, 9
+
+
+Which would have advanced the most at the end of a month, -- the boy who had made his own jackknife from the ore which he had dug and smelted, reading as much as would be necessary for this, -- or the boy who had attended the lectures on metallurgy at the Institute in the mean while, and had received a Rogers' penknife from his father?
